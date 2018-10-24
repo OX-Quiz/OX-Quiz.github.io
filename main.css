@@ -43,12 +43,12 @@ html, body {
 .card {
     width: 60%;
     min-width: 500px;
-    margin: 0 auto;
     color: azure;
     background: #0a0b0e;
     border-radius: 16px;
     position: relative;
     padding-bottom: 24px;
+    margin: 0 auto 24px;
 }
 
 .quiz {
