@@ -1,4 +1,3 @@
-var database = {};
 var questions = {
     1: {
         c: "IT",
