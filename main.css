@@ -1,0 +1,99 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: #4a4b4e;
+}
+
+#searchbar {
+    position: relative;
+    width: 100%;
+    height: 30%;
+}
+
+#question {
+    width: 200px;
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+    left: calc(50% - 111px);
+    box-shadow: 2px 2px 4px #444;
+    font-size: 18px;
+    padding: 5px;
+    border: 1px solid #444;
+    border-radius: 5px;
+}
+
+#info {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    left: calc(50% + 111px);
+    bottom: 20px;
+    background: url(outline-info.svg) center center no-repeat;
+    cursor: pointer;
+}
+
+#answerbar {
+    width: 100%;
+    height: 70%;
+    overflow: auto;
+}
+
+.card {
+    width: 60%;
+    min-width: 500px;
+    margin: 0 auto;
+    color: azure;
+    background: #0a0b0e;
+    border-radius: 16px;
+    position: relative;
+    padding-bottom: 24px;
+}
+
+.quiz {
+    font-weight: bold;
+    font-size: 32px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.category {
+    display: inline-block;
+    font-size: 16px;
+    width: 100%;
+    position: absolute;
+    top: 16px;
+    left: calc(50% - 200px);
+}
+
+.question {
+    padding-bottom: 16px;
+    border-bottom: 1px solid lightgray;
+}
+
+.question, .answer {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.card .result {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.card.X .result {
+    background: #b82525;
+}
+
+.card.O .result {
+    background: url(outline-true.svg) center center no-repeat;
+    background-size: 100% 100%;
+}
+
+.category, .quiz {
+    color: #f1c700;
+}
